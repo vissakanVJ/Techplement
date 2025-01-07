@@ -19,4 +19,13 @@ cloud-assignment-1.1.mp4 :
   4. Installed apache2 and wordpress on the first instance.
   5. installed mysql-server on second instance.
   6. established the connection between wordpress and mysql which is in different instance.
-     
+
+
+Commands used in terminal :
+1. ssh -i key-pair.pem ubuntu@'ip-address of instance'  -->  to establish ssh connection
+2. chmod 400 key-pair.pem  -->  to modify the file permissions
+3. sudo install apt 'appliction  -->  to install required application
+4. create user 'user-name'@'ip-address' identified with mysql_native_password by 'password'  -->  to create new user in sql
+5. create database demo
+6. grant all privileges on database.table to 'sql-user'@'ip-address'  -->  to provide privileges to make database accesable to new user
+7. nano  -->  file editor to alter files.
